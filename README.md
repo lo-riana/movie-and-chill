@@ -37,7 +37,7 @@ If you are developing a production application, we recommend using TypeScript wi
   Includes a *Back* button to return to the list.
 
 - **Home Page**  
-  Before searching, users see a welcoming **Hero banner** and curated categories:  
+  Before searching, users see a welcoming Hero banner and categories:  
   - Trending now  
   - Disney & Pixar  
   - Anime
@@ -50,16 +50,22 @@ If you are developing a production application, we recommend using TypeScript wi
 ---
 
 ## Project Setup
- 
+## 1. 
 ```sh
 git clone https://github.com/lo-riana/movie-and-chill.git
+```
+## 2.
+```sh
 cd movie-and-chill
+```
+## 3.
+```sh
 npm install
 ```
 Create a file ".env.local" in the root directory and add :
 VITE_OMDB_API_KEY=your_api_key_here
 
-Run the project
+**Run the project**
 ```sh
 npm run dev
 ```
