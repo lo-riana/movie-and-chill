@@ -1,0 +1,65 @@
+# React + Vite
+
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+
+Currently, two official plugins are available:
+
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+## React Compiler
+
+The React Compiler is not enabled on this template. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+
+## Expanding the ESLint configuration
+
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+
+---
+
+## Features
+
+- **Search by Title**  
+  Users can search for movies by typing a title and pressing *Enter* or clicking the *Search* button.
+
+- **Movie List**  
+  Displays search results with posters, titles, and years.  
+  If no results are found, a clear message is shown.
+
+- **Movie Details**  
+  Clicking on a movie opens a details page with:  
+  - Poster  
+  - Title  
+  - Synopsis  
+  - Rating  
+  - Year  
+  Includes a *Back* button to return to the list.
+
+- **Home Page**  
+  Before searching, users see a welcoming **Hero banner** and curated categories:  
+  - Trending now  
+  - Disney & Pixar  
+  - Anime
+
+- **Interface States**  
+  - *Idle*: Shows a welcome message  
+  - *Loading*: Displays a loader  
+  - *Error*: Shows an error message (e.g., network error)  
+
+---
+
+## Project Setup
+ 
+```sh
+git clone https://github.com/lo-riana/movie-and-chill.git
+cd movie-and-chill
+npm install
+```
+Create a file ".env.local" in the root directory and add :
+VITE_OMDB_API_KEY=your_api_key_here
+
+Run the project
+```sh
+npm run dev
+```
