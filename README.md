@@ -50,15 +50,15 @@ If you are developing a production application, we recommend using TypeScript wi
 ---
 
 ## Project Setup
-## 1. 
+### 1. 
 ```sh
 git clone https://github.com/lo-riana/movie-and-chill.git
 ```
-## 2.
+### 2.
 ```sh
 cd movie-and-chill
 ```
-## 3.
+### 3.
 ```sh
 npm install
 ```
